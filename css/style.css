@@ -349,3 +349,64 @@ MEAL CARD: 11PX
   gap: 0.4rem;
   font-size: 2.4rem;
 }
+
+/* ? ----------------------- Section Testimonial ------------------ */
+
+.section-testimonial {
+  /* padding: 9.6rem 0 8rem; */
+  background-color: #f8fcff;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+.section-testimonial .sub-heading {
+  /* color: #80c7f7; */
+  /* color: #0099ff; */
+  /* color: #0e76a8; */
+  color: #5cbcf2;
+}
+.testimonial-content {
+  padding: 9.6rem;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 6.4rem;
+  column-gap: 8rem;
+}
+.testimonial-item {
+}
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+  color: #38444c;
+}
+.testimonial-author {
+  font-size: 1.6rem;
+  color: #4f4d4d;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.gallery-item {
+  overflow: hidden;
+}
+.gallary-img {
+  width: 100%;
+  display: block;
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+}
+.gallary-img:hover {
+  transform: scale(1.2);
+}
