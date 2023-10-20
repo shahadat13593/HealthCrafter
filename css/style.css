@@ -355,7 +355,7 @@ MEAL CARD: 11PX
 .section-testimonial {
   /* padding: 9.6rem 0 8rem; */
   background-color: #f8fcff;
-  background-color: #eaf7fe;
+  /* background-color: #eaf7fe; */
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -446,4 +446,86 @@ MEAL CARD: 11PX
 /* ? ----------------------- Section cta ------------------ */
 .section-cta {
   padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to right bottom, #bae3fc, #cfebfd);
+  border-radius: 11px;
+  overflow: hidden;
+}
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #252d32;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+  color: inherit;
+}
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+  color: inherit;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2.4rem;
+  column-gap: 3.2rem;
+}
+
+.cta-form label {
+  font-size: 1.8rem;
+  color: inherit;
+  display: block;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+.cta-form input,
+.cta-form select {
+  padding: 1.2rem;
+  border-radius: 9px;
+  width: 100%;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.cta input::placeholder {
+  color: #aaa;
+}
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(37, 45, 50, 0.2);
+}
+
+.btn--form {
+  background-color: #252d32;
+  padding: 1.4rem;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: end;
+  border-radius: 9px;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #252d32;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(186, 227, 252, 0.3),
+      rgba(207, 235, 253, 0.3)
+    ),
+    url(../img/cta3.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
