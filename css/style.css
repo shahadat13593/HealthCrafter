@@ -355,6 +355,7 @@ MEAL CARD: 11PX
 .section-testimonial {
   /* padding: 9.6rem 0 8rem; */
   background-color: #f8fcff;
+  background-color: #eaf7fe;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
