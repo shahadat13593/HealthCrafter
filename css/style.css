@@ -360,11 +360,9 @@ MEAL CARD: 11PX
   grid-template-columns: 55fr 45fr;
   align-items: center;
 }
-.section-testimonial .sub-heading {
-  /* color: #80c7f7; */
-  /* color: #0099ff; */
-  /* color: #0e76a8; */
-  color: #5cbcf2;
+.section-testimonial .heading-secondary {
+  font-size: 4rem;
+  line-height: 1.2;
 }
 .testimonial-content {
   padding: 9.6rem;
@@ -410,4 +408,42 @@ MEAL CARD: 11PX
 }
 .gallary-img:hover {
   transform: scale(1.2);
+}
+/* ? ----------------------- Section Testimonial ------------------ */
+.section-features {
+  padding: 9.6rem 0;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4.8rem;
+}
+.feature-item {
+}
+.feature-icon {
+  /* background-color: #eaf7fe;
+  color: #0099ff; */
+  color: #252d32;
+  background-color: #cfebfd;
+  padding: 1.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  margin-bottom: 3.2em;
+}
+.feature-heading {
+  font-size: 2.4rem;
+  color: #292a2d;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #4f4d4d;
+}
+
+/* ? ----------------------- Section cta ------------------ */
+.section-cta {
+  padding: 9.6rem 0;
 }

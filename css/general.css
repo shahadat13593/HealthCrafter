@@ -24,7 +24,12 @@
    
 
 *- Tints:
+#0099ff;
+#cfebfd
 #95b6ca
+
+#eaf7fe
+#f8fcff;
 
 *- shades:
 #38444c
@@ -102,11 +107,15 @@ body {
 
 .sub-heading {
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  color: #707070;
+  /* color: #707070; */
+  /* color: #5cbcf2; */
+  /* color: #80c7f7; */
+  color: #0099ff;
+
   margin-bottom: 2.4rem;
 }
 .head-sub-box {
