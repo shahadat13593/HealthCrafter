@@ -281,7 +281,7 @@ MEAL CARD: 11PX
 }
 .products {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 3.2rem;
   row-gap: 6.4rem;
 }

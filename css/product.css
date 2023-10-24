@@ -2,3 +2,68 @@
 .section-product-page {
   padding: 9.6rem 0;
 }
+.product-page-img-box {
+  border: solid 1px #a1a1a1;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+.product-page-img {
+  width: 60rem;
+  height: 40rem;
+  object-fit: cover;
+}
+.product-page-text-box {
+  align-self: center;
+}
+.product-page-text-box .product-name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.product-page-text-box .product-company {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+.product-page-text-box .price {
+  font-size: 2.8rem;
+  margin-bottom: 3.2rem;
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.button-box .btn {
+  border-radius: 9px;
+}
+
+.btn--buy {
+  background-color: #292a2d;
+  color: #fff;
+}
+.btn--buy:hover {
+  background-color: #bae3fc;
+  background-color: #1a1c24;
+  color: #fff;
+}
+
+.btn--cart:hover {
+  background-color: #9bd2f4;
+  color: #1a1c24;
+}
+
+.introduction,
+.uses,
+.side-effect,
+.how {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+
+.intro-description,
+.uses-description,
+.side-effect-description,
+.how-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}

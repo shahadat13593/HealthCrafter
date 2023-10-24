@@ -21,10 +21,11 @@
 
 *--- 02 Color
    Primary:  #bae3fc
+   #9bd2f4
    
 
 *- Tints:
-#0099ff;
+#46b0f2;
 #cfebfd
 #95b6ca
 
@@ -91,9 +92,18 @@ body {
 /* ? ----------------- grids ------------------- */
 .grid {
   display: grid;
+}
+.grid-gap-1 {
   column-gap: 6rem;
 }
+.grid-gap-2 {
+  column-gap: 6.4rem;
+  row-gap: 6.4rem;
+}
 
+.grid--cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
 .grid--cols-3 {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -125,10 +135,8 @@ body {
   font-weight: 500;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  /* color: #707070; */
-  /* color: #5cbcf2; */
-  /* color: #80c7f7; */
-  color: #0099ff;
+
+  color: #46b0f2;
 
   margin-bottom: 2.4rem;
 }
