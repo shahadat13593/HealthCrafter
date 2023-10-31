@@ -1,0 +1,66 @@
+.modal {
+  background: linear-gradient(to right bottom, #bae3fc, #cfebfd);
+  border-radius: 11px;
+  padding: 4.8rem;
+  width: 80rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.modal .heading-secondary {
+  text-align: center;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #292a2d;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}
+
+.from-two {
+  grid-template-columns: 1fr;
+}
+.from-two .btn--form {
+  margin-top: 2.4rem;
+  justify-self: center;
+}
+
+.account-exist {
+  border: none;
+  color: #707070;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.account-exist:hover {
+  color: #252d32;
+}

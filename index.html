@@ -6,6 +6,7 @@
     <title>HealthCrafter</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -1231,22 +1232,17 @@
               <form action="" class="cta-form">
                 <div>
                   <label for="name">Full Name</label>
-                  <input type="text" class="name" id="name" required placeholder="Shahadat Hossain">
+                  <input type="text" class="name" id="name" required placeholder="Shahadat Hossain" autocomplete="username">
                 </div>
                 <div>
                   <label for="email">Email</label>
-                  <input type="email" class="email" id="email" required placeholder="exmail@gmail.com">
+                  <input type="email" class="email" id="email" required placeholder="exmail@gmail.com" autocomplete="email">
                 </div>
                <div>
-                  <label for="select-where">Where did u hear about us?</label>
-                  <select name="" id="select-where" required>
-                    <option value="">Please choose one option:</option>
-                    <option value="friends">Friends and family</option>
-                    <option value="youtube">Youtube video</option>
-                    <option value="facebook">Facebook</option>
-                    <option value="podcast">Podcast</option>
-                  </select>
-                </div>
+                  <label for="password">Password</label>
+                  <input type="password" class="password"  placeholder="Enter Your Password" autocomplete="current-password"/>
+                
+               </div>
 
                  <button class="btn btn--form">Sign up now</button>
               </form>
@@ -1261,6 +1257,55 @@
       </section>
     </main>
 
+
+    <!-- Section-modal ------- -->
+
+   <section class="section-modal hidden">
+    <div class="container modal">
+      <button class="close-modal">&times;</button>
+      <h2 class="heading-secondary reg-header">Registration</h2>
+
+         <h2 class="heading-secondary log-Header">Log In</h2>
+
+               <form action="" class="cta-form form-one">
+                <div>
+                  <label for="name">Full Name</label>
+                  <input type="text" class="name" required placeholder="Shahadat Hossain" autocomplete="username">
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" class="email"  required placeholder="exmail@gmail.com" autocomplete="email">
+                </div>
+               <div>
+                  <label for="password">Password</label>
+                  <input type="password" class="password"  placeholder="Enter Your Password" autocomplete="current-password"/>
+                
+               </div>
+
+                 <button class="btn btn--form">Sign up now</button>
+              </form>
+
+                 <a href="#" id="account-exist" class="account-exist hidden">Already Have account?</a>
+
+          <form action="" class="cta-form from-two">
+                <div>
+                  <label for="name">User Name</label>
+                  <input type="text" class="name"  required placeholder="Shahadat Hossain" autocomplete="username">
+                </div>
+                    <div>
+                  <label for="password">Password</label>
+                  <input type="password" class="password"  placeholder="Enter Your Password"  autocomplete="current-password" />
+                
+               </div>
+                 <button class="btn btn--form">Log In</button>
+              </form>
+ 
+
+
+               
+    </div>
+     <div class="overlay"></div>
+  </section>
 
 <!-- ------------------ footer --------------------------->
 <footer class="footer">
@@ -1309,6 +1354,8 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
 
