@@ -63,7 +63,7 @@ MEAL CARD: 11PX
 .main-nav {
   display: flex;
   align-items: center;
-  gap: 9.6rem;
+  gap: 6rem;
 }
 .search-box {
   background-color: #fff;

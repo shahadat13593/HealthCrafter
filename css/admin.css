@@ -1,0 +1,48 @@
+/* ! -------------- Section Medicine ----------------*/
+
+.section-medicine {
+  padding: 9.8rem;
+}
+
+.btn-admin {
+  width: auto;
+  border-radius: 7px;
+}
+.btn-link {
+  text-decoration: none;
+  color: #292a2d;
+}
+.btn-admin:hover .btn-link {
+  color: #fff;
+}
+.btn-link:hover {
+  color: #fff;
+}
+table {
+  margin-top: 4.8rem;
+  font-size: 1.8rem;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1.6rem 2.4rem;
+  text-align: left;
+}
+
+thead tr {
+  background-color: #bae3fc;
+  color: #292a2d;
+}
+
+thead th {
+  width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
